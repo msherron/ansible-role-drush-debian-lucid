@@ -1,7 +1,5 @@
 # Ansible Role: Drush
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-drush.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-drush)
-
 Installs Drush, a command line shell and scripting interface for Drupal, on any Linux or UNIX system.
 
 ## Requirements
@@ -38,7 +36,7 @@ Whether to keep Drush up-to-date with the latest revision of the branch specifie
 
     - hosts: servers
       roles:
-        - { role: geerlingguy.drush }
+        - { role: msherron.drush-debian-lucid }
 
 After the playbook runs, the `drush` command will be accessible from normal system accounts.
 
@@ -48,4 +46,4 @@ MIT / BSD
 
 ## Author Information
 
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+This is a fork of a role that was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).

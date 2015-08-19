@@ -19,6 +19,7 @@
     {{ composer_path }} install --prefer-source --no-interaction
     chdir={{ drush_install_path }}
     creates={{ drush_install_path }}/vendor/autoload.php
+  when: not debian_lucid_flag
 
 - name: Create drush symlink.
   file:

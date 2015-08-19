@@ -1,11 +1,11 @@
 ---
 dependencies:
-  - geerlingguy.git
-  - geerlingguy.php
+  - msherron.git-debian-lucid
+  - msherron.php-debian-lucid
   - geerlingguy.composer
 
 galaxy_info:
-  author: geerlingguy
+  author: msherron
   description: Drush - command line shell for Drupal
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
